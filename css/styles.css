@@ -72,6 +72,7 @@ img {
   margin-left: auto;
   align-items: center;
 }
+
 .top-line-link {
   color: #2196f3;
 }
@@ -133,13 +134,14 @@ img {
   color: var(--primary-text-color);
 }
 .section-cap-link {
-  width: 696px;
-  height: 120px;
+  padding-left: 452px;
+  padding-top: 200px;
+  padding-bottom: 280px;
+  padding-right: 452px;
 }
 .section-1 {
   width: 1600px;
   height: 600px;
-  padding: 94px;
   background-color: #2f303a;
 }
 .button-link {
@@ -154,26 +156,48 @@ img {
   height: 50px;
   border-radius: 4px;
 }
+.button-link {
+  margin-top: 30px;
+  margin-left: 165px;
+}
 .btn {
   background-color: #2196f3;
 }
-.content-section {
-  margin-top: 42px;
-  margin-bottom: 94px;
+.main-section {
+  padding-top: 73px;
+}
+
+.main-container {
+  display: flex;
+}
+.mainlink-section {
   display: flex;
   align-items: center;
 }
-
-.content {
-  width: 270px;
-  height: 75px;
+.mainlink {
+  margin-top: 86px;
+  margin-bottom: 50px;
+  margin-left: 370px;
+  margin-right: 227px;
 }
-.main-section:not(:last-child) {
+.img-section :not(late-chaild) {
   margin-right: 30px;
 }
-.main-section {
-  width: 270px;
-  height: 16px;
+.mainlink {
+  margin-top: 188px;
+  margin-bottom: 50px;
+}
+.main-sect {
+  margin-bottom: 94px;
+}
+.team-link {
+  margin-top: 30px;
+  margin-left: 60px;
+}
+
+.position-link {
+  margin-top: 10px;
+  margin-left: 70px;
 }
 .main-link {
   font-weight: bold;
@@ -215,7 +239,20 @@ img {
   letter-spacing: 0.03em;
   color: #757575;
 }
+
 /*-------------- foote------------- */
+
+.footer-section {
+  padding-top: 60px;
+  padding-bottom: 161px;
+}
+.footer-nav {
+  margin-top: 20px;
+}
+.fooret-main {
+  margin-bottom: 9px;
+}
+
 .footer-line {
   color: var(--primary-text-color);
   font-family: Raleway;
@@ -252,15 +289,21 @@ img {
 .add-link:focus {
   color: var(--accent-color);
 }
+
 .section {
   width: 1600px;
   height: 252px;
-  padding: 94px;
   background-color: var(--second-text-color);
 }
 /*----------------- portfolio----------------------------- */
 
 /*------------------- head-------------------------- */
+.head-link {
+  margin-right: 93px;
+}
+.hea-link {
+  margin-right: 50px;
+}
 .list {
   list-style: none;
 }
@@ -270,6 +313,7 @@ img {
 .header {
   background-color: var(--primary-text-color);
 }
+
 .head-link {
   font-family: Raleway;
   font-weight: bold;
@@ -327,12 +371,49 @@ img {
   background-color: var(--accent-color);
 }
 /*------------------ main----------------- */
+.botton-section {
+  margin-top: 94px;
+  margin-bottom: 34px;
+}
+.but-link-1 {
+  width: 73px;
+  height: 38px;
+  border-radius: 4px;
+  margin-right: 8px;
+}
+.but-link-2 {
+  width: 128px;
+  height: 38px;
+  border-radius: 4px;
+  margin-right: 8px;
+}
+.but-link-3 {
+  width: 145px;
+  height: 38px;
+  border-radius: 4px;
+  margin-right: 8px;
+}
+.but-link-4 {
+  width: 103px;
+  height: 38px;
+  border-radius: 4px;
+  margin-right: 8px;
+}
+.but-link-5 {
+  width: 130px;
+  height: 38px;
+  border-radius: 4px;
+}
 .main-link {
   font-weight: bold;
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
   color: var(--second-text-color);
+}
+.button-menu {
+  margin-left: 270px;
+  margin-bottom: 34px;
 }
 .direct-link {
   font-weight: normal;
@@ -341,4 +422,13 @@ img {
   letter-spacing: 0.03em;
   color: #757575;
 }
+
+.img-section {
+  display: flex;
+}
+.img-main {
+  width: 1170px;
+  height: 1360px;
+}
+
 /* -----------------footer -----------------*/
